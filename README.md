@@ -15,7 +15,6 @@ This project consists of a Postman collection designed to test the core **CRUD**
 
 **Tested API:** FoodieApp API (Staging Environment).
 
-* **Note on Execution:** As this is an older test collection, some requests (e.g., PUT/DELETE) may fail due to **expired authentication tokens** or the **deletion of the test data** used previously. To run the full collection successfully, please ensure you **run the authentication request first** to obtain a valid token and re-create any necessary test data.
 
 ## 💻 3. Technology Stack
 
@@ -32,14 +31,14 @@ The complete API documentation, including request structures, validation tests, 
 
 ## 📐 5. Design Diagram
 
-**Note:** For API testing, the "Design Diagram" often represents the Test Flow or Request Chain. Our test flow followed the sequence: **Auth Request → Read/GET Request → Create/POST Request → Delete/DELETE Request.**
+**Note:** For API testing, the "Design Diagram" often represents the Test Flow or Request Chain. Test flow followed the sequence: **Auth Request → Read/GET Request → Create/POST Request → Delete/DELETE Request.**
 
 ## 📸 6. Screenshots
 
 Examples demonstrating successful execution and automated validation of the API tests:
 
 ### Successful GET Request
-![Screenshot of a successful GET request in Postman](Screenshot 2025-10-23 145650.png)
+![Screenshot of a successful GET request in Postman](Success_GET.png)
 
 ### Automated Validation Tests
-![Screenshot of Postman Tests tab for validation](Screenshot 2025-10-23 151427.png)
+![Screenshot of Postman Tests tab for validation](Tests_Tab.png)
