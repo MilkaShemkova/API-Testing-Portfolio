@@ -9,7 +9,7 @@ This repository showcases practical skills in Web API testing, including request
 This project consists of a Postman collection designed to test the core **CRUD** (Create, Read, Update, Delete) and **Auth** (Authentication) operations of the FoodieApp Web API. Key activities include:
 * Testing HTTP methods: GET, POST, PUT, and DELETE.
 * Validation of Status Codes and Response Data structure.
-
+  
 
 ## 🔗 2. Deployment link
 
@@ -36,6 +36,12 @@ The complete API documentation, including request structures, validation tests, 
 ## 📸 6. Screenshots
 
 Examples demonstrating successful execution and automated validation of the API tests:
+
+### Successful GET Request
+![Screenshot of a successful GET request in Postman]("Success_GET.png")
+
+### Automated Validation Tests
+![Screenshot of Postman Tests tab for validation]("Tests_Tab.png")
 
 ### Successful GET Request
 ![Screenshot of a successful GET request in Postman](Success_GET.png)
