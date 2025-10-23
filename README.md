@@ -10,10 +10,12 @@ This project consists of a Postman collection designed to test the core **CRUD**
 * Testing HTTP methods: GET, POST, PUT, and DELETE.
 * Validation of Status Codes and Response Data structure.
 
+
 ## 🔗 2. Deployment link
 
 **Tested API:** FoodieApp API (Staging Environment).
 
+* **Note on Execution:** As this is an older test collection, some requests (e.g., PUT/DELETE) may fail due to **expired authentication tokens** or the **deletion of the test data** used previously. To run the full collection successfully, please ensure you **run the authentication request first** to obtain a valid token and re-create any necessary test data.
 
 ## 💻 3. Technology Stack
 
@@ -37,7 +39,7 @@ The complete API documentation, including request structures, validation tests, 
 Examples demonstrating successful execution and automated validation of the API tests:
 
 ### Successful GET Request
-![Screenshot of a successful GET request in Postman](Screenshot_Get_Success.png)
+![Screenshot of a successful GET request in Postman](Screenshot 2025-10-23 145650.png)
 
 ### Automated Validation Tests
-![Screenshot of Postman Tests tab for validation](Screenshot_Postman_Tests.png)
+![Screenshot of Postman Tests tab for validation](Screenshot 2025-10-23 151427.png)
